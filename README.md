@@ -8,11 +8,11 @@ Installation
 
 Install Pelican and a few other packages (something like):
 
-  pip install pelican markdown ghp-import shovel
+    pip install pelican markdown ghp-import shovel
 
-Then    
+Then:    
 
-  mkdir -p ~/src/pelican
-  cd  ~/src/pelican
-  git clone https://github.com/getpelican/pelican-plugins.git
-  git clone https://github.com/DandyDev/pelican-bootstrap3.git
+    mkdir -p ~/src/pelican
+    cd  ~/src/pelican
+    git clone https://github.com/getpelican/pelican-plugins.git
+    git clone https://github.com/DandyDev/pelican-bootstrap3.git
