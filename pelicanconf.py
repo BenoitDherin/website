@@ -23,7 +23,8 @@ TRANSLATION_FEED_ATOM = None
 #          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('Github', 'https://github.com/berkeley-stat133'),)
+SOCIAL = (('Github', 'https://github.com/berkeley-stat133'),
+          ('Piazza', 'https://piazza.com/'),)
 
 DEFAULT_PAGINATION = 10
 
