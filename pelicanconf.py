@@ -1,12 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
-AUTHOR = u'Jarrod Millman'
-SITENAME = u'Berkeley Stat 133'
-SITEURL = ''
+AUTHOR = u'Benoit Dherin & Jarrod Millman'
+SITENAME = u"UC Berkeley's Statistics 133"
+SITESUBTITLE = u'Concepts in Computing with Data (Spring 2014)'
+SITEURL = '' # change in publishconf.py
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
 
@@ -16,16 +18,22 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+#LINKS =  (('Pelican', 'http://getpelican.com/'),
+#          ('Python.org', 'http://python.org/'),
+#          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/berkeley-stat133'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME = os.path.join(os.environ.get('HOME'),
+                     'src/pelican/pelican-bootstrap3/')
+PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
+                           'src/pelican/pelican-plugins')
+PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
+           'liquid_tags.include_code', 'liquid_tags.notebook',
+           'liquid_tags.literal']
