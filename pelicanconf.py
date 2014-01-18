@@ -19,16 +19,16 @@ TRANSLATION_FEED_ATOM = None
 
 ## Title menu options (this isn't necessary, but I wanted to have more control)
 DISPLAY_CATEGORIES_ON_MENU = False
-#DISPLAY_PAGES_ON_MENU = False
-#MENUITEMS = [('Course Information', 'info.html'),
-#             ('Syllabus', 'syllabus.html'),
-#            ('Lectures', 'lectures.html'),
-#             ('Assignments', 'assignments.html'),]
+DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = [('Course Information', 'http://berkeley-stat133.github.io/pages/info.html'),
+             ('Syllabus', 'http://berkeley-stat133.github.io/pages/syllabus.html'),
+            ('Lectures', 'http://berkeley-stat133.github.io/pages/lectures.html'),
+             ('Assignments', 'http://berkeley-stat133.github.io/pages/assignments.html'),]
 
 # Blogroll
-#LINKS =  (('Pelican', 'http://getpelican.com/'),
-#          ('Python.org', 'http://python.org/'),
-#          ('Jinja2', 'http://jinja.pocoo.org/'),)
+LINKS =  (('Pelican', 'http://getpelican.com/'),
+          ('Python.org', 'http://python.org/'),
+          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/berkeley-stat133'),
