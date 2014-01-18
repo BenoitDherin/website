@@ -1,6 +1,17 @@
-#Custom
+# Custom
 output
 pelicanconf_local.py
+
+# Editors and OSes
+*~
+._*
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.py[cod]
+.idea/*
+.env
 
 #Python
 *.py[cod]

@@ -15,7 +15,6 @@ Then:
     mkdir -p ~/src/pelican
     cd  ~/src/pelican
     git clone https://github.com/getpelican/pelican-plugins.git
-    git clone https://github.com/DandyDev/pelican-bootstrap3.git
 
 Developing
 ==========
