@@ -61,3 +61,5 @@ if not os.path.exists('_nb_header.html'):
                   "Rerun make html to finalize build.")
 else:
     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+
+CC_LICENSE = "CC-BY-NC-SA"
