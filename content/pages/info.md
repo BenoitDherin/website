@@ -1,8 +1,11 @@
-Title: Course Information
+Title: Concepts in Computing with Data (Spring 2014)
 Slug: info
 
-## Instructor
-Benoit Dherin
+* **Instructor:** [Benoit Dherin](http://www.stat.berkeley.edu/~bdherin/)
+* **GSI:** Jarrod Millman
+* **Lectures:** Tuesdays and Thursdays (9:30-11A) in 60 EVANS
+* **Labs:** Fridays (12:00-13:00,13:00-14:00, and 14:00-15:00) in 342 EVANS
+* **CNN:** [87462](http://osoc.berkeley.edu/OSOC/osoc?p_ccn=87462&p_term=SP)
 
 ## Prerequisites
 Familiarity with basic concepts in probability and statistics is important.
@@ -23,4 +26,4 @@ to that point has been satisfactory.
 I will be particularly unforgiving regarding academic dishonesty. Cheating
 cases will result in an immediate failing grade for the class and will be
 reported to the University Center for Student Conduct.  Please read the
-following Honor Code carefully. 
+[Honor Code](http://asuc.org/honorcode/) carefully. 
