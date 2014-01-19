@@ -1,11 +1,8 @@
-title: Hello World
+title: Lecture 1
 author: Jarrod Millman
 date: 2014-01-18 18:50
-slug: hello-world
-tags: python, notebook
+slug: lecture1
+tags: unix, notebook
 
-Testing the notebook integration plugin:
-
-{% notebook hello-world.ipynb %}
-
+Lecture 1 is now available [here](pages/lecture1.html).
 You can download the notebook [here](notebooks/hello-world.ipynb).
