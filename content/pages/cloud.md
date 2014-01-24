@@ -1,10 +1,6 @@
-Title: Cloud
+Title: Cloud Machine Setup
 Slug: cloud
 
-
-Cloud Machine Setup
-
-How to access your cloud machine
 
 Needed software and local installations {.c5 .c14}
 =======================================
@@ -71,8 +67,3 @@ to scf-ug02.berkeley.edu through scf-ug10.berkeley.edu.
 -   You’ll be prompted for a login and password. Enter your cloud SCF
     login and your SID as password. The password you’ll be asked to
     reset will be your cloud SCF password.
-
-Published by [Google
-Drive](https://docs.google.com/a/berkeley.edu/ "Learn more about Google Drive")–[Report
-Abuse](https://docs.google.com/a/berkeley.edu/abuse?id=167NqV3ANI8YDmqqZTYqHUaTxaOxBQpHzcDCLyWjdfB8)–Updated
-automatically every 5 minutes
