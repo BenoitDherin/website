@@ -22,14 +22,13 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = [('Course Information', 'http://berkeley-stat133.github.io/pages/info.html'),
              ('Syllabus', 'http://berkeley-stat133.github.io/pages/syllabus.html'),
-            ('Lectures', 'http://berkeley-stat133.github.io/pages/lectures.html'),
+             ('Lectures', 'http://berkeley-stat133.github.io/pages/lectures.html'),
+             ('Labs', 'http://berkeley-stat133.github.io/pages/labs.html'),
+             ('Cloud', 'http://berkeley-stat133.github.io/pages/cloud.html'),
              ('Assignments', 'http://berkeley-stat133.github.io/pages/assignments.html'),]
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),)
-
+LINKS =  (('Software Carpentry', 'http://software-carpentry.org'),)
 # Social widget
 SOCIAL = (('Github', 'https://github.com/berkeley-stat133'),
           ('Piazza', 'https://piazza.com/'),)
