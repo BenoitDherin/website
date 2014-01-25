@@ -21,3 +21,4 @@ Slug: labs
 * [Remote access](cloud.html)
 * Local install
 
+## Day 2

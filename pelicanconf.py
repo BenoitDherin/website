@@ -19,19 +19,19 @@ TRANSLATION_FEED_ATOM = None
 
 ## Title menu options (this isn't necessary, but I wanted to have more control)
 DISPLAY_CATEGORIES_ON_MENU = False
-DISPLAY_PAGES_ON_MENU = False
-MENUITEMS = [('Course Information', 'http://berkeley-stat133.github.io/pages/info.html'),
-             ('Syllabus', 'http://berkeley-stat133.github.io/pages/syllabus.html'),
-             ('Lectures', 'http://berkeley-stat133.github.io/pages/lectures.html'),
-             ('Labs', 'http://berkeley-stat133.github.io/pages/labs.html'),
-             ('Cloud', 'http://berkeley-stat133.github.io/pages/cloud.html'),
-             ('Assignments', 'http://berkeley-stat133.github.io/pages/assignments.html'),]
+DISPLAY_PAGES_ON_MENU = True
+#MENUITEMS = [('Course Information', 'http://berkeley-stat133.github.io/pages/info.html'),
+#             ('Syllabus', 'http://berkeley-stat133.github.io/pages/syllabus.html'),
+#             ('Lectures', 'http://berkeley-stat133.github.io/pages/lectures.html'),
+#             ('Labs', 'http://berkeley-stat133.github.io/pages/labs.html'),
+#             ('Cloud', 'http://berkeley-stat133.github.io/pages/cloud.html'),
+#             ('Assignments', 'http://berkeley-stat133.github.io/pages/assignments.html'),]
 
 # Blogroll
-LINKS =  (('Software Carpentry', 'http://software-carpentry.org'),)
+LINKS =  (('Course website', 'http://nbviewer.ipython.org/urls/db.tt/IPY60OHY?create=1'),
+          ('Software Carpentry', 'http://software-carpentry.org'),)
 # Social widget
-SOCIAL = (('Github', 'https://github.com/berkeley-stat133'),
-          ('Piazza', 'https://piazza.com/'),)
+SOCIAL = (('Github', 'https://github.com/berkeley-stat133'),)
 
 DEFAULT_PAGINATION = 10
 
