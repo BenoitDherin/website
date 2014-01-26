@@ -20,7 +20,7 @@ Go to the "Download" page; download and run the `.exe` installer.
 
 ## OSX
 
-We suggest [TextWrangler](http://www.barebones.com/products/textwrangler)
+We suggest [TextWrangler](http://www.barebones.com/products/textwrangler).
 Download the `.dmg` installer.  Run the file to get the disk icon on the
 desktop like this:
 
