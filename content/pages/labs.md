@@ -1,10 +1,14 @@
-Title: Labs
-Slug: labs
+Title: About
+Slug: about
 
-## Getting started
+## Sections
 
-* Introductions
-* Logging on and updating password (password manager)
+*  201 LAB 	87465 	F 12-1P	342 EVANS   
+*  202 LAB 	87468 	F 1-2P	342 EVANS
+*  203 LAB 	87471 	F 2-3P	342 EVANS
+
+## Github
+
 * Github account
 
     * [Create account](https://github.com/join)
@@ -20,5 +24,3 @@ Slug: labs
 
 * [Remote access](cloud.html)
 * Local install
-
-## Day 2

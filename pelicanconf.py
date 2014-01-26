@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 import os
 
-AUTHOR = u'Benoit Dherin & Jarrod Millman'
+AUTHOR = u'Jarrod Millman'
 SITENAME = u"UC Berkeley's Statistics 133"
 SITESUBTITLE = u'Concepts in Computing with Data (Spring 2014)'
 SITEURL = '' # change in publishconf.py
