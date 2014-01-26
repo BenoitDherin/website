@@ -39,13 +39,13 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = 'theme/'
-PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
-                           'src/pelican/pelican-plugins')
-PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
-           'liquid_tags.include_code', 'liquid_tags.notebook',
-           'liquid_tags.literal']
+# PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
+#                           'src/pelican/pelican-plugins')
+# PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
+#            'liquid_tags.include_code', 'liquid_tags.notebook',
+#            'liquid_tags.literal']
 
-STATIC_PATHS = ['notebooks']
+STATIC_PATHS = ['notebooks', 'images']
 
 # The theme file should be updated so that the base header contains the line:
 #
