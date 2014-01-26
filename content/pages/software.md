@@ -82,7 +82,7 @@ When you've pasted, press return:
 
 You can check that your editor is properly configured by typing:
 
-    git config -e
+    git config --global -e
 
 in the git bash window.  It should fire up Notepad++ with a text file with
 some settings for git.  Don't change anything, close the file.
@@ -106,7 +106,7 @@ editor.
 
 You can check your editor is properly configure by typing:[
 
-    git config -e
+    git config --global -e
 
 in the Terminal window.  It should fire up TextWranger with a text file with
 some settings for git.  Don't change anything, close the file.
