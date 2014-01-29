@@ -51,7 +51,7 @@ THEME = 'theme/'
 #            'liquid_tags.include_code', 'liquid_tags.notebook',
 #            'liquid_tags.literal']
 
-STATIC_PATHS = ['notebooks', 'images']
+STATIC_PATHS = ['notebooks', 'images', 'files']
 
 ## The theme file should be updated so that the base header contains the line:
 ##
