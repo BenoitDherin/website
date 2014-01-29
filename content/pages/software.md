@@ -110,3 +110,9 @@ You can check your editor is properly configure by typing:[
 
 in the Terminal window.  It should fire up TextWranger with a text file with
 some settings for git.  Don't change anything, close the file.
+
+# Scientific Python distribution
+
+You will need to install several Python packages for scientific computing.
+If you are using Windows or OSX, you may want to install
+[Anaconda](https://store.continuum.io/cshop/anaconda/).
