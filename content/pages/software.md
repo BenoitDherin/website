@@ -47,6 +47,9 @@ us to keep a record of changes and to share changes with other people.
 
 ## On Windows
 
+**Note:** You will need to install version 1.8.4 (there's an error in 1.8.5 for Windows).
+You can find the 1.8.4 Windows executable [here](http://code.google.com/p/msysgit/downloads/detail?name=Git-1.8.4-preview20130916.exe).
+
 Follow the instructions [here](http://git-scm.com/book/en/Getting-Started-Installing-Git#Installing-on-Windows).
 
 If you installed Notepad++ you will need to tell git to use Notepad++ as your
