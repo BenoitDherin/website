@@ -18,6 +18,14 @@ We suggest [Notepad++](http://notepad-plus-plus.org).
 
 Go to the "Download" page; download and run the `.exe` installer.
 
+**New**
+In BASH
+
+```bash
+export PATH=/c/Program\ Files/Notepad++:$PATH
+alias edit='notepad++'
+```
+
 ## OSX
 
 We suggest [TextWrangler](http://www.barebones.com/products/textwrangler).

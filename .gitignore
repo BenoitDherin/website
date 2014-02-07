@@ -4,6 +4,7 @@ pelicanconf_local.py
 pelican.pid
 srv.pid
 _nb_header.html
+tmp
 
 # Editors and OSes
 *~
