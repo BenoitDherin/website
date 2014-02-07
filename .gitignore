@@ -16,6 +16,7 @@ tmp
 *.py[cod]
 .idea/*
 .env
+*.bak
 
 #Python
 *.py[cod]
