@@ -43,13 +43,13 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = 'theme/'
-#MD_EXTENSIONS = (['toc'])
-#PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
-#                           'src/pelican/pelican-plugins')
-#PLUGINS = ['extract_toc']
-# PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
-#            'liquid_tags.include_code', 'liquid_tags.notebook',
-#            'liquid_tags.literal']
+MD_EXTENSIONS = (['toc'])
+PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
+                           'plugins')
+PLUGINS = ['extract_toc']
+ PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
+            'liquid_tags.include_code', 'liquid_tags.notebook',
+            'liquid_tags.literal']
 
 STATIC_PATHS = ['notebooks', 'images', 'files']
 
