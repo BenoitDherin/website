@@ -6,15 +6,12 @@ Source for generating website using pelican
 Installation
 ============
 
-Install Pelican and a few other packages (something like):
+It's best to install in a virtualenv because you need a specific version of
+IPython, in particualar.  Something like::
 
-    pip install pelican markdown ghp-import shovel
-
-Then:    
-
-    mkdir -p ~/src/pelican
-    cd  ~/src/pelican
-    git clone https://github.com/getpelican/pelican-plugins.git
+    virtualenv pelican-blog
+    . pelican-blog/bin/activate
+    pip install -r requirements.txt
 
 Developing
 ==========
@@ -24,9 +21,9 @@ http://localhost:8000, type:
 
     make devserver
 
-Once you are happy with your changes, type:
+Once you are happy with your changes, type::
 
-    ./develop_server.sh stop
+    make stopserver
 
 Publishing
 ==========
@@ -36,3 +33,14 @@ To build the site and push it to github, type:
     make github
 
 The updated page can be viewed here: http://berkeley-stat133.github.io/
+
+Cleaning up
+===========
+
+When you've finished working on the blog, deactivate the virtualenv::
+
+    deactivate
+
+To start working on it again, ``cd`` into this directory and::
+
+    . pelican-blog/bin/activate
