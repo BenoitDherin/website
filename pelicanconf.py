@@ -43,7 +43,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = 'theme/'
-MD_EXTENSIONS = (['toc'])
+# MD_EXTENSIONS = (['toc'])
 PLUGIN_PATH = 'plugins'
 #PLUGINS = ['extract_toc']
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
