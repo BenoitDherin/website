@@ -55,3 +55,5 @@ nosetests.xml
 .project
 .pydevproject
 
+# Virtualenv for pelican
+pelican-blog/
