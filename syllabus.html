@@ -3,7 +3,7 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-    <title>Software</title>
+    <title>Syllabus</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -1718,8 +1718,9 @@ init_mathjax();
 
     <!-- Open Graph tags -->
             <meta property="og:type" content="article"/>
-            <meta property="og:title" content="Software"/>
-            <meta property="og:url" content="http://berkeley-stat133.github.io/pages/software.html"/>
+            <meta property="og:title" content="Syllabus"/>
+            <meta property="og:url" content="http://berkeley-stat133.github.io/syllabus.html"/>
+            <meta property="og:description" content="Course Info¶ Instructor: Benoit Dherin Graduate Student Instructor: Jarrod Millman Start Date: Tuesday, January 21 Lectures: Tuesdays and Thursdays from 9:30 to 11 pm in Evans 60 CNN: 87462 Prerequisites: Familiarity with basic concepts in probability and statistics is important. Being comfortable with matrices, vectors, basic set theory, functions ..."/>
 
     <!-- Bootstrap -->
         <link rel="stylesheet" href="http://berkeley-stat133.github.io/theme/css/bootstrap.min.css" type="text/css"/>
@@ -1779,7 +1780,7 @@ UC Berkeley's Stat 133 (Lec 002, Sp 14)            </a>
                          <li><a href="http://berkeley-stat133.github.io/pages/projects.html">
                              Projects
                           </a></li>
-                         <li class="active"><a href="http://berkeley-stat133.github.io/pages/software.html">
+                         <li><a href="http://berkeley-stat133.github.io/pages/software.html">
                              Software
                           </a></li>
                          <li><a href="http://berkeley-stat133.github.io/pages/syllabus.html">
@@ -1798,105 +1799,164 @@ UC Berkeley's Stat 133 (Lec 002, Sp 14)            </a>
     <div class="row">
         <div class="col-sm-9">
 
-    <section id="content" class="body">
-        <h1 class="entry-title">Software</h1>
-        
-        <div class="entry-content">
-            <h1>Text editor</h1>
-<p>You will need an editor for text to edit code and other things.</p>
-<p>Your text editor will be your constant companion and you should chose
-carefully.</p>
-<p>Your teachers use the <code>vim</code> text editor; this is very powerful but has a
-steep learning curve.  The editors we recommend below are easier to use
-without practice, but less powerful.</p>
-<h2>Windows</h2>
-<p>We suggest <a href="http://notepad-plus-plus.org">Notepad++</a>.</p>
-<p>Go to the "Download" page; download and run the <code>.exe</code> installer.</p>
-<p><strong>New</strong>
-In BASH</p>
-<div class="highlight"><pre><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span>/c/Program<span class="se">\ </span>Files/Notepad++:<span class="nv">$PATH</span>
-<span class="nb">alias </span><span class="nv">edit</span><span class="o">=</span><span class="s1">&#39;notepad++&#39;</span>
-</pre></div>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://berkeley-stat133.github.io/syllabus.html"
+                       rel="bookmark"
+                       title="Permalink to Syllabus">
+                        Syllabus
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2014-01-07T00:00:00">Tue 07 January 2014</time>
+    </span>
 
 
-<h2>OSX</h2>
-<p>We suggest <a href="http://www.barebones.com/products/textwrangler">TextWrangler</a>.
-Download the <code>.dmg</code> installer.  Run the file to get the disk icon on the
-desktop like this:</p>
-<p><img alt="TextWrangler DMG" src="http://berkeley-stat133.github.io/images/tw_dmg.png" /></p>
-<p>Double click the disk icon to get something like this:</p>
-<p><img alt="TextWrangler install" src="http://berkeley-stat133.github.io/images/tw_install.png" /></p>
-<p>Drag the TextWrangler icon to the Applications folder icon to install.</p>
-<p>Open TextWrangler by going to your Applications folder and double-clicking the
-TextWrangler icon.</p>
-<p>Go to the TextWrangler menu and make sure you have installed the command line
-tools:</p>
-<p><img alt="TextWrangler command line" src="http://berkeley-stat133.github.io/images/tw_command_line.png" /></p>
-<h1>Git setup</h1>
-<p><a href="http://git-scm.com">git</a> is the standard version control software that allows
-us to keep a record of changes and to share changes with other people.</p>
-<h2>On Windows</h2>
-<p><strong>Note:</strong> You will need to install version 1.8.4 (there's an error in 1.8.5 for Windows).
-You can find the 1.8.4 Windows executable <a href="http://code.google.com/p/msysgit/downloads/detail?name=Git-1.8.4-preview20130916.exe">here</a>.</p>
-<p>Follow the instructions <a href="http://git-scm.com/book/en/Getting-Started-Installing-Git#Installing-on-Windows">here</a>.</p>
-<p>If you installed Notepad++ you will need to tell git to use Notepad++ as your
-editor when git needs text descriptions.</p>
-<p>First open windows explorer to check where Notepad++ got installed.  The
-program may be in <code>C:/Program Files/Notepad++/notepad++.exe</code> or in <code>C:/Program Files (x86)/Notepad++/notepad++.exe</code>. Check which.</p>
-<p>Then double click the git bash icon:</p>
-<p><img alt="git bash icon" src="http://berkeley-stat133.github.io/images/git_bash_icon.png" /></p>
-<p>From this web page, select and copy the command that matches where your
-Notepad++ was installed:</p>
-<div class="highlight"><pre><span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="n">global</span> <span class="n">core</span><span class="p">.</span><span class="n">editor</span> <span class="s">&quot;&#39;C:/Program Files/Notepad++/notepad++.exe&#39; -multiInst -notabbar -nosession -noPlugin&quot;</span>
-</pre></div>
 
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Course-Info">Course Info<a class="anchor-link" href="#Course-Info">&#182;</a></h2>
+</div>
 
-<p>or</p>
-<div class="highlight"><pre><span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="n">global</span> <span class="n">core</span><span class="p">.</span><span class="n">editor</span> <span class="s">&quot;&#39;C:/Program Files (x86)/Notepad++/notepad++.exe&#39; -multiInst -notabbar -nosession -noPlugin&quot;</span>
-</pre></div>
-
-
-<p>Select the top left corner of the git bash window to get the window menu, then
-find the 'Edit' menu 'Paste' option to paste the command into git bash:</p>
-<p><img alt="git bash paste" src="http://berkeley-stat133.github.io/images/git_bash_paste.png" /></p>
-<p>When you've pasted, press return:</p>
-<p><img alt="git bash configged" src="http://berkeley-stat133.github.io/images/git_bash_configged.png" /></p>
-<p>(These instructions are from <a href="http://stackoverflow.com/questions/1634161/how-do-i-use-notepad-or-other-with-msysgit/2486342#2486342">stackoverflow</a>)</p>
-<p>You can check that your editor is properly configured by typing:</p>
-<div class="highlight"><pre><span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="n">global</span> <span class="o">-</span><span class="n">e</span>
-</pre></div>
-
-
-<p>in the git bash window.  It should fire up Notepad++ with a text file with
-some settings for git.  Don't change anything, close the file.</p>
-<h2>On OSX</h2>
-<p>Download and run the installer for <a href="http://code.google.com/p/git-osx-installer">git on
-OSX</a></p>
-<p>If you installed TextWrangler you need to tell git to use it as your text
-editor.</p>
+<div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>make sure you installed the TextWrangler command line tools (see above).</li>
-<li>Open <code>Terminal</code> (Command key and space, type 'Terminal' to find the Terminal
-  app)</li>
-<li>
-<p>At the Terminal command line, type:</p>
-<p><code>git config --global core.editor "edit -w"</code></p>
-</li>
+<li><p><strong>Instructor:</strong> <a href="http://www.stat.berkeley.edu/~bdherin/">Benoit Dherin</a></p></li>
+<li><p><strong>Graduate Student Instructor:</strong> <a href="http://www.jarrodmillman.com/">Jarrod Millman</a></p></li>
+<li><p><strong>Start Date:</strong> Tuesday, January 21</p></li>
+<li><p><strong>Lectures:</strong> Tuesdays and Thursdays from 9:30 to 11 pm in <strong>Evans 60</strong></p></li>
+<li><p><strong>CNN:</strong> <a href="http://osoc.berkeley.edu/OSOC/osoc?p_ccn=87462&amp;p_term=SP">87462</a></p></li>
+<li><p><strong>Prerequisites:</strong> Familiarity with basic concepts in probability and statistics is important. Being comfortable with matrices, vectors, basic set theory, functions, and graphs will also help. There is no prerequisite for programming: we will learn how to program with data from scratch!</p></li>
+<li><p><strong>Grading Policies:</strong> 25% midterm, 25% final exam, 20% labs, and 30% project.</p></li>
+<li><p><strong>Course Policies:</strong> There will be no makeup midterm nor final exam. No late homework will be accepted. Grades of Incomplete will be granted only for dire medical or personal emergencies that cause you to miss the final, and only if your work up to that point has been satisfactory.</p></li>
+<li><p><strong>Academic Honesty:</strong> Cheating cases will result in an immediate failing grade for the class and will be reported to the University Center for Student Conduct. Please read the following Honor Code carefully.</p></li>
+<li><strong>Textbooks:</strong>
+<ul>
+<li><a href="http://learnpythonthehardway.org/book/">Learn Python The Hard Way, 3rd</a> by Zed. A. Shaw</li>
+<li><a href="http://www.stat.berkeley.edu/users/spector/s133/schedule.html">Concept in Computing with Data</a> by Phil Spector</li>
+</ul></li>
+<li><p><strong>Locations and Schedules:</strong></p></li>
 </ul>
-<p>(These instructions are from <a href="http://stackoverflow.com/questions/13257519/how-to-change-the-default-editor-for-git">stackoverflow</a>)</p>
-<p>You can check your editor is properly configure by typing:[</p>
-<div class="highlight"><pre><span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="n">global</span> <span class="o">-</span><span class="n">e</span>
-</pre></div>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<div align='center'>
+<iframe src="http://www.google.com/calendar/embed?src=berkeley.edu_bf2tn5msh66bl9iqmnbsprubfs%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Ressources">Ressources<a class="anchor-link" href="#Ressources">&#182;</a></h2>
+</div>
 
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="class-required-software">Class required software</h3>
+<ul>
+<li><a href="https://docs.google.com/document/d/1ybM5k73-b38dvYDbr8QX01l15SNgfysdS7wDmlQDBcY/pub">OskiBox Instructions</a> for downloading and installing on your own computer a virtual linux machine with all the programs needed for the class in it. (The same machine as you have in the cloud).</li>
+<li><p><a href="https://docs.google.com/document/d/14VhcyR_ii19-jnJwUjvOeJe26OJSVZpCjGrsiBnSBxA/pub">Cloud computing setup instructions</a></p></li>
+<li><p><a href="http://berkeley-stat133.github.io/pages/software.html">Other software setup instruction</a></p></li>
+</ul>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="online-books">Online Books</h3>
+<ul>
+<li><a href="http://proquest.safaribooksonline.com/book/operating-systems-and-server-administration/unix/0596005954">Classic Shell Scripting</a>, by Arnold Robbins and Nelson H. F. Beebe, O'Reilly (2005)</li>
+<li><a href="http://proquest.safaribooksonline.com/book/databases/sql/9780596801847">Learning SQL</a>, 2nd Edition, by Alan Beaulieu, O'Reilly (2009)</li>
+<li><a href="http://link.springer.com/book/10.1007/978-3-642-18366-9/page/1">A Primer on Scientific Programming with Python</a>, by Hans Petter Langtangen, Springer (2011)</li>
+<li><a href="http://proquest.safaribooksonline.com/book/programming/python/9781449323592">Python for Data Analysis</a>, by Wes McKinney, Springer (2012)</li>
+<li><a href="http://www.stat.berkeley.edu/classes/s133/all2011.pdf">Stat 133 lecture notes</a> by Phil Spector</li>
+<li><a href="http://link.springer.com/book/10.1007/978-1-4302-5807-0/page/1">Pro Data Visualization using R and JavaScript</a>, by Tom Barker, Apress (2011)</li>
+</ul>
+<p>that you can access freely from campus through:</p>
+<ul>
+<li><a href="http://www.lib.berkeley.edu/find/types/books.html">eBook collections form the UC library</a></li>
+<li><a href="http://site.ebrary.com/lib/berkeley/home.action">ebrary</a></li>
+<li><a href="http://proquest.safaribooksonline.com/">Safari Book Online</a></li>
+<li><a href="http://link.springer.com/search?facet-content-type=%22Book%22">Springer Book Online</a></li>
+</ul>
+<p>See <a href="http://www.lib.berkeley.edu/Help/connecting_off_campus.html#ucb">here</a> for a guideline on how to set up a remote connection.</p>
+<h3 id="online-video-lectures">Online video lectures</h3>
+<ul>
+<li><a href="https://class.coursera.org/introstats-001/class/index">Coursera: Statistics: Making Sense of Data</a> (The R tutorial part of the video lecture.)</li>
+<li><a href="http://www.codecademy.com/tracks/python">Codecademy: Python tutorial</a></li>
+<li><a href="https://developers.google.com/edu/python/">Google's Python Class</a></li>
+<li><a href="http://www.openvim.com/tutorial.html">Interactive vi tutorial</a></li>
+<li><a href="http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=PracticalUnix">Practical Unix</a> by Sam King and Emin Topalovic</li>
+</ul>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Exams">Exams<a class="anchor-link" href="#Exams">&#182;</a></h2>
+</div>
 
-<p>in the Terminal window.  It should fire up TextWranger with a text file with
-some settings for git.  Don't change anything, close the file.</p>
-<h1>Scientific Python distribution</h1>
-<p>You will need to install several Python packages for scientific computing.
-If you are using Windows or OSX, you may want to install
-<a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.</p>
-        </div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><strong>Midterm:</strong> Tuesday, March 4, during lecture time:
+<ul>
+<li><strong>If the first letter of your last name is in the range A-K</strong> go to <a href="http://ets.berkeley.edu/computer-facilities/hmf">212 Wheeler Hall</a></li>
+<li><strong>If the first letter of your last name is in the range L-Z</strong> go to <a href="http://ets.berkeley.edu/computer-facilities/tmf">1535 Tolman Hall</a></li>
+<li>You'll find <a href="http://nbviewer.ipython.org/urls/db.tt/GTHiVSze?create=1">here</a> a guideline for the midterm preparation.</li>
+</ul></li>
+<li><strong><a href="http://statistics.berkeley.edu/courses/spring-2014/spring-2014-stat-133-002-lec">Final Exam</a>:</strong> Wednesday, May 14 from 11:30 pm to 2:30 pm
+<ul>
+<li><strong>If the first letter of your last name is in the range A-K</strong> go to <a href="http://ets.berkeley.edu/computer-facilities/hmf">212 Wheeler Hall</a></li>
+<li><strong>If the first letter of your last name is in the range L-Z</strong> go to <a href="http://ets.berkeley.edu/computer-facilities/tmf">1535 Tolman Hall</a></li>
+</ul></li>
+</ul>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Syllabus">Syllabus<a class="anchor-link" href="#Syllabus">&#182;</a></h2>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The course will be organized around 5 concepts:</p>
+<ul>
+<li>Concept 1: <strong>Programming</strong> with data (structures in data and code, data munging)</li>
+<li>Concept 2: <strong>Computing</strong> with data (vectors, matrices, series, and dataframes)</li>
+<li>Concept 3: <strong>Visualizing</strong> data (pie chart, box plots, etc. and <a href="https://github.com/mbostock/d3/wiki/Gallery">more artistic representations</a>)</li>
+<li>Concept 4: <strong>Analyzing</strong> data (getting insight from data through statistical analysis and learning algorithms)</li>
+<li>Concept 5: <strong>Collaborating</strong> around data (through a team class project)</li>
+</ul>
+<p>Here are the technologies and computing tools you will learn in this course:</p>
+<ul>
+<li><strong>The Unix operating system for data processing</strong></li>
+<li><strong>The Python ecosystem for scientific computing</strong></li>
+<li><strong>The R programming language for statistical analysis and visualization</strong></li>
+</ul>
+<p>If time permits, we will also explore:</p>
+<ul>
+<li><strong>The D3 framework for rich data visualization</strong></li>
+<li><strong>The SQL query language for storing and accessing data from SQL databases</strong></li>
+<li><strong>Control version systems with git and github</strong></li>
+</ul>
+<p>This course has three main goals:</p>
+<ul>
+<li><strong>Learning popular data mining technologies</strong> used by the industry in your neighborhood ;)</li>
+<li><strong>Learning statistical analysis with R</strong> for your studies here at the stat department and beyond</li>
+<li><strong>Getting experience in working collaboratively</strong> around data mining projects and creating a portfolio for future job hunt</li>
+</ul>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Labs/Homework/Projects">Labs/Homework/Projects<a class="anchor-link" href="#Labs/Homework/Projects">&#182;</a></h2>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<div align="center">
+<iframe width='800' height='1800' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AprZViyRAaZqdFVmdXdRUVhiTWU0UUdaMjRiSmpZY3c&output=html&widget=true' ></iframe>
+</div>
+</div></p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
     </section>
+
         </div>
         <div class="col-sm-3 well well-sm" id="sidebar">
 
