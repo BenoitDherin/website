@@ -3,9 +3,9 @@
 from __future__ import unicode_literals
 import os
 
-AUTHOR = u'Jarrod Millman'
-SITENAME = u"UC Berkeley's Statistics 133"
-SITESUBTITLE = u'Concepts in Computing with Data (Spring 2014)'
+AUTHOR = u'Jarrod Millman and Benoit Dherin'
+SITENAME = u"UC Berkeley's Stat 133 (Lec 002, Sp 14)"
+SITESUBTITLE = u'Concepts in Computing with Data (Lec 002, Spring 2014)'
 SITEURL = '' # change in publishconf.py
 
 TIMEZONE = 'US/Pacific'
@@ -30,10 +30,13 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_TAGS_ON_SIDEBAR = False
 
 # Blogroll
-LINKS =  (('Course website', 'http://nbviewer.ipython.org/urls/db.tt/IPY60OHY?create=1'),
-          ('Github', 'https://github.com/berkeley-stat133'),
-          ('PTHW', 'http://learnpythonthehardway.org'),
-          ('Software Carpentry', 'http://software-carpentry.org'),)
+LINKS= (
+        ('Home', 'http://berkeley-stat133.github.io'),
+        ('Github', 'https://github.com/berkeley-stat133'),
+        ('PTHW', 'http://learnpythonthehardway.org'),
+        ('Software Carpentry', 'http://software-carpentry.org'),
+)
+
 # Social widget
 #SOCIAL = (('Github', 'https://github.com/berkeley-stat133'),)
 
