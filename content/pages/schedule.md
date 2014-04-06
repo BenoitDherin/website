@@ -30,7 +30,7 @@ textbooks, on which we will draw upon.
 
 ## Basics of data analysis (mostly R)
  
-* [Class notebooks]()
+* [Class notebooks](http://benoitdherin.github.io/data-analysis-with-R/)
 * [Making Sense of Data](https://accounts.coursera.org/signin?course_id=970433&r=https%3A%2F%2Fclass.coursera.org%2Fintrostats-001%2Flecture&user_action=class&topic_name=Statistics%3A%20Making%20Sense%20of%20Data) online free course videos by [Coursera](https://www.coursera.org/)
 * [Stat 133 Lecture Notes](http://www.stat.berkeley.edu/~s133/all2011.pdf) by Phil Spector
 * [R Tutorial](http://www.r-tutor.com/)
