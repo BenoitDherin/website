@@ -25,7 +25,7 @@ textbooks, on which we will draw upon.
 ## Basics of programming with R
 
 * [Class notebooks](http://benoitdherin.github.io/R-basics)
-* [The art of R programming](http://http://www.amazon.com/The-Art-Programming-Statistical-Software/dp/1593273843), by Norman Matloff
+* [The art of R programming](http://www.nostarch.com/artofr.htm), by Norman Matloff
 * [Try R](http://tryr.codeschool.com) from [code school](https://www.codeschool.com)
 
 ## Basics of data analysis (mostly R)
