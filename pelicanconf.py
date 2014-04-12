@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 import os
 
 AUTHOR = u'Jarrod Millman and Benoit Dherin'
+
 SITENAME = u"UC Berkeley's Stat 133 (Lec 002, Sp 14)"
 SITESUBTITLE = u'Concepts in Computing with Data (Lec 002, Spring 2014)'
 SITEURL = '' # change in publishconf.py
@@ -11,6 +12,11 @@ SITEURL = '' # change in publishconf.py
 TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
+
+# Control the syntax hilighting style for markdown (see http://pygments.org/demo/218030/) 
+# for different choices
+
+PYGMENTS_STYLE=u'trac'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -27,7 +33,7 @@ DISPLAY_PAGES_ON_MENU = True
 #             ('Cloud', 'http://berkeley-stat133.github.io/pages/cloud.html'),
 #             ('Assignments', 'http://berkeley-stat133.github.io/pages/assignments.html'),]
 
-DISPLAY_TAGS_ON_SIDEBAR = False
+DISPLAY_TAGS_ON_SIDEBAR = False 
 
 # Blogroll
 LINKS= (
