@@ -10,8 +10,17 @@ It's best to install in a virtualenv because you need a specific version of
 IPython, in particualar.  Something like::
 
     virtualenv pelican-blog
-    . pelican-blog/bin/activate
+    source pelican-blog/bin/activate
     pip install -r requirements.txt
+
+
+You may need to install the last version of Nodes.js for converting iPython
+notebooks with pelican. 
+From within [OskiBox](https://docs.google.com/document/d/1ybM5k73-b38dvYDbr8QX01l15SNgfysdS7wDmlQDBcY/pub), 
+type in:
+
+	sudo apt-get update
+	sudo apt-get install nodejs
 
 Developing
 ==========
