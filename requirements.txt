@@ -1,3 +1,5 @@
 markdown
-ipython==1.2
-git+git://github.com/getpelican/pelican.git@011cd50e2e7
+ipython
+pelican
+pyzmq
+tornado
