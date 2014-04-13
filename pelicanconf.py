@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+
 from __future__ import unicode_literals
 import os
 
@@ -16,7 +17,7 @@ DEFAULT_LANG = u'en'
 # Control the syntax hilighting style for markdown (see http://pygments.org/demo/218030/) 
 # for different choices
 
-PYGMENTS_STYLE=u'trac'
+PYGMENTS_STYLE=u'vim'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
