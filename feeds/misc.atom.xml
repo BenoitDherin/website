@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>UC Berkeley's Stat 133 (Lec 002, Sp 14)</title><link href="http://berkeley-stat133.github.io/" rel="alternate"></link><link href="http://berkeley-stat133.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://berkeley-stat133.github.io/</id><updated>2014-02-21T00:00:00-08:00</updated><entry><title>Lab 4</title><link href="http://berkeley-stat133.github.io/lab04.html" rel="alternate"></link><updated>2014-02-21T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-21:lab04.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>UC Berkeley's Stat 133</title><link href="http://berkeley-stat133.github.io/" rel="alternate"></link><link href="http://berkeley-stat133.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://berkeley-stat133.github.io/</id><updated>2014-04-18T00:00:00-07:00</updated><entry><title>Lecture notebooks and material</title><link href="http://berkeley-stat133.github.io/material.html" rel="alternate"></link><updated>2014-04-18T00:00:00-07:00</updated><author><name>Benoit Dherin</name></author><id>tag:berkeley-stat133.github.io,2014-04-18:material.html</id><summary type="html">&lt;p&gt;You will find here all the material needed for this class, including
+the iPython class notebooks (which you can also access following
+the links on the right). The class deadlines, projects and homework
+instructions, and lecture topics can be found on the &lt;a href="pages/schedule"&gt;schedule page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For each topic covered in class, start by reviewing the 
+corresponding ipython class notebooks listed below (i.e. the notebooks we
+filled in together in class). Then, use the ressources listed 
+below the class notebooks for each of the class parts,
+if you need further explanations or more practice. &lt;/p&gt;
+&lt;h2&gt;Part I: Basics of programming with Python&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://benoitdherin.github.io/python-basics/"&gt;Class iPython notebooks&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://learnpythonthehardway.org/book/"&gt;Learning Python the Hard Way&lt;/a&gt;, by Zed. A. Shaw&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://proquest.safaribooksonline.com/book/programming/python/9781449323592"&gt;Python for Data Analysis&lt;/a&gt;, by Wes McKinney (Especially Ch.4 and ch.5)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.codecademy.com/tracks/python"&gt;Python Codecademy&lt;/a&gt; from &lt;a href="http://www.codecademy.com/"&gt;Codecademy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part II: Basics of programming with R&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://benoitdherin.github.io/R-basics"&gt;Class iPython notebooks&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.nostarch.com/artofr.htm"&gt;The art of R programming&lt;/a&gt;, by Norman Matloff&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tryr.codeschool.com"&gt;Try R&lt;/a&gt; from &lt;a href="https://www.codeschool.com"&gt;code school&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part III: Basics of data analysis (mostly R)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://benoitdherin.github.io/data-analysis-with-R/"&gt;Class iPython notebooks&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://accounts.coursera.org/signin?course_id=970433&amp;amp;r=https%3A%2F%2Fclass.coursera.org%2Fintrostats-001%2Flecture&amp;amp;user_action=class&amp;amp;topic_name=Statistics%3A%20Making%20Sense%20of%20Data"&gt;Making Sense of Data&lt;/a&gt; online free course videos by &lt;a href="https://www.coursera.org/"&gt;Coursera&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.stat.berkeley.edu/~s133/all2011.pdf"&gt;Stat 133 Lecture Notes&lt;/a&gt; by Phil Spector&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.r-tutor.com/"&gt;R Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://link.springer.com/book/10.1007/978-0-387-79054-1"&gt;Introductory Statistics with R&lt;/a&gt; by Peter Dalgaard&lt;/li&gt;
+&lt;/ul&gt;</summary></entry><entry><title>Working with docstrings and tests</title><link href="http://berkeley-stat133.github.io/lab04.html" rel="alternate"></link><updated>2014-02-21T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-21:lab04.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Work on the cloud&lt;/li&gt;
 &lt;li&gt;Complete your assignment&lt;/li&gt;
@@ -142,7 +183,7 @@ wish to submit to your local repository.  You should use
 the state you expect.&lt;/p&gt;
 &lt;p&gt;Once your local repository is in whatever state you wish,
 you just need to push your local repository up to your remote
-Github repo using &lt;code&gt;git push&lt;/code&gt;.&lt;/p&gt;</summary></entry><entry><title>Lab 3</title><link href="http://berkeley-stat133.github.io/lab03.html" rel="alternate"></link><updated>2014-02-14T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-14:lab03.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
+Github repo using &lt;code&gt;git push&lt;/code&gt;.&lt;/p&gt;</summary></entry><entry><title>Adding, Committing, and Pushing</title><link href="http://berkeley-stat133.github.io/lab03.html" rel="alternate"></link><updated>2014-02-14T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-14:lab03.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Work on the cloud&lt;/li&gt;
 &lt;li&gt;Complete your assignment&lt;/li&gt;
@@ -298,7 +339,7 @@ to &lt;span class="nb"&gt;read &lt;/span&gt;about a specific subcommand or conce
 
 &lt;p&gt;You can write a script based on the one you  wrote for &lt;a href="lab02"&gt;lab 2&lt;/a&gt; to
 process your &lt;code&gt;grades.json&lt;/code&gt; file printing out this information in whatever
-format you please, calculate and report statistics, or plot your scores.&lt;/p&gt;</summary></entry><entry><title>Lab 2</title><link href="http://berkeley-stat133.github.io/lab02.html" rel="alternate"></link><updated>2014-02-07T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-07:lab02.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
+format you please, calculate and report statistics, or plot your scores.&lt;/p&gt;</summary></entry><entry><title>Submitting your labs</title><link href="http://berkeley-stat133.github.io/lab02.html" rel="alternate"></link><updated>2014-02-07T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-07:lab02.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Take your next steps with &lt;code&gt;git&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Get your grade for lab 1&lt;/li&gt;
@@ -816,7 +857,7 @@ Changes to be committed:
 &lt;code&gt;git log&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;At this point all your work was done locally, so the last thing
 you need to do is push these changes up to your remote Github
-repo using &lt;code&gt;git push&lt;/code&gt;.&lt;/p&gt;</summary></entry><entry><title>Lab 1</title><link href="http://berkeley-stat133.github.io/lab01.html" rel="alternate"></link><updated>2014-01-31T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-01-31:lab01.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
+repo using &lt;code&gt;git push&lt;/code&gt;.&lt;/p&gt;</summary></entry><entry><title>Create your class repository</title><link href="http://berkeley-stat133.github.io/lab01.html" rel="alternate"></link><updated>2014-01-31T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-01-31:lab01.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Setup &lt;code&gt;git&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Create a private homework repository on Github&lt;/li&gt;
@@ -1019,7 +1060,7 @@ To https://github.com/jarrodmillman/stat133
 something like this:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Your New Repo" src="http://berkeley-stat133.github.io/images/github_s133_repo_2ndcommit.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Note that there is now a new file and the number of commits has
-been incremented to 2.&lt;/p&gt;</summary></entry><entry><title>Lab 0</title><link href="http://berkeley-stat133.github.io/lab00.html" rel="alternate"></link><updated>2014-01-24T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-01-24:lab00.html</id><summary type="html">&lt;p&gt;In the first lab, we will deal with account and installation issues.&lt;/p&gt;
+been incremented to 2.&lt;/p&gt;</summary></entry><entry><title>Create a github account</title><link href="http://berkeley-stat133.github.io/lab00.html" rel="alternate"></link><updated>2014-01-24T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-01-24:lab00.html</id><summary type="html">&lt;p&gt;In the first lab, we will deal with account and installation issues.&lt;/p&gt;
 &lt;p&gt;During future labs, we will make heavy use of git and github.  Every student
 will need a Github student account for submitting their lab work:&lt;/p&gt;
 &lt;ol&gt;
