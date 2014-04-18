@@ -1,4 +1,4 @@
-title: Lab 0
+title: Create a github account 
 author: Jarrod Millman
 date: 2014-01-24
 slug: lab00

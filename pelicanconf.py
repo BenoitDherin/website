@@ -6,7 +6,7 @@ import os
 
 AUTHOR = u'Jarrod Millman and Benoit Dherin'
 
-SITENAME = u"UC Berkeley's Stat 133 (Lec 002, Sp 14)"
+SITENAME = u"UC Berkeley's Stat 133"
 SITESUBTITLE = u'Concepts in Computing with Data (Lec 002, Spring 2014)'
 SITEURL = '' # change in publishconf.py
 
@@ -27,7 +27,7 @@ TRANSLATION_FEED_ATOM = None
 ## Title menu options (this isn't necessary, but I wanted to have more control)
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
-#MENUITEMS = [('Course Information', 'http://berkeley-stat133.github.io/pages/info.html'),
+#MENUITEMS = [('Download OskiBox', 'http://berkeley-stat133.github.io/pages/info.html'),]
 #             ('Syllabus', 'http://berkeley-stat133.github.io/pages/syllabus.html'),
 #             ('Lectures', 'http://berkeley-stat133.github.io/pages/lectures.html'),
 #             ('Labs', 'http://berkeley-stat133.github.io/pages/labs.html'),
@@ -37,12 +37,16 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_TAGS_ON_SIDEBAR = False 
 
 # Blogroll
-LINKS= (
-        ('Home', 'http://berkeley-stat133.github.io'),
-        ('Github', 'https://github.com/berkeley-stat133'),
-        ('PTHW', 'http://learnpythonthehardway.org'),
-        ('Software Carpentry', 'http://software-carpentry.org'),
-)
+LINKS= ( 
+         ('Main Page', '/'),
+         ('Instaling OskiBox', 'https://docs.google.com/document/d/1ybM5k73-b38dvYDbr8QX01l15SNgfysdS7wDmlQDBcY/pub'),
+         ('Forking Project Template', 'https://github.com/BenoitDherin/data-analysis-template'),
+         ('Cloning python NB ', 'http://benoitdherin.github.io/python-basics/'),
+         ('Cloning R NB', 'http://benoitdherin.github.io/R-basics/'),
+         ('Cloning data analysis NB', 'http://benoitdherin.github.io/data-analysis-with-R/'),)
+        #('PTHW', 'http://learnpythonthehardway.org'),
+        #('Software Carpentry', 'http://software-carpentry.org'),
+#)
 
 # Social widget
 #SOCIAL = (('Github', 'https://github.com/berkeley-stat133'),)

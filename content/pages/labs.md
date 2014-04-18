@@ -1,4 +1,4 @@
-Title: About
+Title: Github
 Slug: about
 
 ## Sections

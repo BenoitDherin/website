@@ -1,4 +1,4 @@
-title: Lab 4
+title: Working with docstrings and tests 
 author: Jarrod Millman
 date: 2014-02-21
 slug: lab04

@@ -1,4 +1,4 @@
-title: Lab 2
+title: Submitting your labs 
 author: Jarrod Millman
 date: 2014-02-07
 slug: lab02

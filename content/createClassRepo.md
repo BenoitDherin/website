@@ -1,4 +1,4 @@
-title: Lab 1 
+title: Create your class repository 
 author: Jarrod Millman
 date: 2014-01-31
 slug: lab01

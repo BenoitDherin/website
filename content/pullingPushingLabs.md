@@ -1,4 +1,4 @@
-title: Lab 3
+title: Adding, Committing, and Pushing
 author: Jarrod Millman
 date: 2014-02-14
 slug: lab03
