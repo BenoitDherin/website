@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>UC Berkeley's Stat 133</title><link href="http://berkeley-stat133.github.io/" rel="alternate"></link><link href="http://berkeley-stat133.github.io/feeds/all.atom.xml" rel="self"></link><id>http://berkeley-stat133.github.io/</id><updated>2014-04-18T00:00:00-07:00</updated><entry><title>Lecture notebooks and material</title><link href="http://berkeley-stat133.github.io/material.html" rel="alternate"></link><updated>2014-04-18T00:00:00-07:00</updated><author><name>Benoit Dherin</name></author><id>tag:berkeley-stat133.github.io,2014-04-18:material.html</id><summary type="html">&lt;p&gt;You will find here all the material needed for this class, including
+<feed xmlns="http://www.w3.org/2005/Atom"><title>UC Berkeley's Stat 133</title><link href="http://berkeley-stat133.github.io/website/" rel="alternate"></link><link href="http://berkeley-stat133.github.io/website/feeds/all.atom.xml" rel="self"></link><id>http://berkeley-stat133.github.io/website/</id><updated>2014-04-18T00:00:00-07:00</updated><entry><title>Lecture notebooks and material</title><link href="http://berkeley-stat133.github.io/website/material.html" rel="alternate"></link><updated>2014-04-18T00:00:00-07:00</updated><author><name>Benoit Dherin</name></author><id>tag:berkeley-stat133.github.io,2014-04-18:website/material.html</id><summary type="html">&lt;p&gt;You will find here all the material needed for this class, including
 the iPython class notebooks (which you can also access following
 the links on the right). The class deadlines, projects and homework
 instructions, and lecture topics can be found on the &lt;a href="pages/schedule"&gt;schedule page&lt;/a&gt;.&lt;/p&gt;
@@ -40,7 +40,7 @@ if you need further explanations or more practice. &lt;/p&gt;
 &lt;li&gt;&lt;a href="http://www.stat.berkeley.edu/~s133/all2011.pdf"&gt;Stat 133 Lecture Notes&lt;/a&gt; by Phil Spector&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.r-tutor.com/"&gt;R Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://link.springer.com/book/10.1007/978-0-387-79054-1"&gt;Introductory Statistics with R&lt;/a&gt; by Peter Dalgaard&lt;/li&gt;
-&lt;/ul&gt;</summary></entry><entry><title>Working with docstrings and tests</title><link href="http://berkeley-stat133.github.io/lab04.html" rel="alternate"></link><updated>2014-02-21T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-21:lab04.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
+&lt;/ul&gt;</summary></entry><entry><title>Working with docstrings and tests</title><link href="http://berkeley-stat133.github.io/website/lab04.html" rel="alternate"></link><updated>2014-02-21T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-21:website/lab04.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Work on the cloud&lt;/li&gt;
 &lt;li&gt;Complete your assignment&lt;/li&gt;
@@ -183,7 +183,7 @@ wish to submit to your local repository.  You should use
 the state you expect.&lt;/p&gt;
 &lt;p&gt;Once your local repository is in whatever state you wish,
 you just need to push your local repository up to your remote
-Github repo using &lt;code&gt;git push&lt;/code&gt;.&lt;/p&gt;</summary></entry><entry><title>Adding, Committing, and Pushing</title><link href="http://berkeley-stat133.github.io/lab03.html" rel="alternate"></link><updated>2014-02-14T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-14:lab03.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
+Github repo using &lt;code&gt;git push&lt;/code&gt;.&lt;/p&gt;</summary></entry><entry><title>Adding, Committing, and Pushing</title><link href="http://berkeley-stat133.github.io/website/lab03.html" rel="alternate"></link><updated>2014-02-14T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-14:website/lab03.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Work on the cloud&lt;/li&gt;
 &lt;li&gt;Complete your assignment&lt;/li&gt;
@@ -339,7 +339,7 @@ to &lt;span class="nb"&gt;read &lt;/span&gt;about a specific subcommand or conce
 
 &lt;p&gt;You can write a script based on the one you  wrote for &lt;a href="lab02"&gt;lab 2&lt;/a&gt; to
 process your &lt;code&gt;grades.json&lt;/code&gt; file printing out this information in whatever
-format you please, calculate and report statistics, or plot your scores.&lt;/p&gt;</summary></entry><entry><title>Submitting your labs</title><link href="http://berkeley-stat133.github.io/lab02.html" rel="alternate"></link><updated>2014-02-07T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-07:lab02.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
+format you please, calculate and report statistics, or plot your scores.&lt;/p&gt;</summary></entry><entry><title>Submitting your labs</title><link href="http://berkeley-stat133.github.io/website/lab02.html" rel="alternate"></link><updated>2014-02-07T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-02-07:website/lab02.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Take your next steps with &lt;code&gt;git&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Get your grade for lab 1&lt;/li&gt;
@@ -857,7 +857,7 @@ Changes to be committed:
 &lt;code&gt;git log&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;At this point all your work was done locally, so the last thing
 you need to do is push these changes up to your remote Github
-repo using &lt;code&gt;git push&lt;/code&gt;.&lt;/p&gt;</summary></entry><entry><title>Create your class repository</title><link href="http://berkeley-stat133.github.io/lab01.html" rel="alternate"></link><updated>2014-01-31T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-01-31:lab01.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
+repo using &lt;code&gt;git push&lt;/code&gt;.&lt;/p&gt;</summary></entry><entry><title>Create your class repository</title><link href="http://berkeley-stat133.github.io/website/lab01.html" rel="alternate"></link><updated>2014-01-31T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-01-31:website/lab01.html</id><summary type="html">&lt;p&gt;In this lab, you will:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Setup &lt;code&gt;git&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Create a private homework repository on Github&lt;/li&gt;
@@ -909,7 +909,7 @@ git config --global user.email &lt;span class="s2"&gt;&amp;quot;millman@berkeley
 &lt;p&gt;Make sure you are logged onto Github.  In your user bar at the top right
 of any Github page, click the &lt;a href="https://github.com/new"&gt;"Create a New Repo"&lt;/a&gt;
 button:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Create New Repo" src="http://berkeley-stat133.github.io/images/github_create_new_repo.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create New Repo" src="http://berkeley-stat133.github.io/website/images/github_create_new_repo.png" /&gt;&lt;/p&gt;
 &lt;p&gt;This will take you to a new page where you will:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Name your repository "stat133"&lt;/li&gt;
@@ -919,10 +919,10 @@ button:&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;Your screen should look like this (except &lt;code&gt;jarrodmillman&lt;/code&gt; will
 be replaced by your Github name):&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Create New Github Repo" src="http://berkeley-stat133.github.io/images/github_new_repo.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create New Github Repo" src="http://berkeley-stat133.github.io/website/images/github_new_repo.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Once you click the "Create repository" button, you should see a
 page like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Your New Repo" src="http://berkeley-stat133.github.io/images/github_s133_repo.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Your New Repo" src="http://berkeley-stat133.github.io/website/images/github_s133_repo.png" /&gt;&lt;/p&gt;
 &lt;p&gt;In order for me to see (and grade) your private repository, you will
 need to add me as a colloborator.  In the lower right-hand corner of
 your repositories main page, you should see a button labelled
@@ -930,7 +930,7 @@ your repositories main page, you should see a button labelled
 a page where you can edit various settings for your repository.
 Choose the "Collaborators" button on the "Settings" page and
 add me, &lt;code&gt;jarrodmillman&lt;/code&gt;, as well as the instructor, &lt;code&gt;BenoitDherin&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Github Add Collaborator" src="http://berkeley-stat133.github.io/images/github_add_collab.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Github Add Collaborator" src="http://berkeley-stat133.github.io/website/images/github_add_collab.png" /&gt;&lt;/p&gt;
 &lt;h3&gt;Clone repository to your local machine&lt;/h3&gt;
 &lt;p&gt;First you will create a &lt;code&gt;src&lt;/code&gt; subdirectory in your home directory.
 Then you will clone your repo inside of the &lt;code&gt;src&lt;/code&gt; subdirectory.
@@ -1058,9 +1058,9 @@ To https://github.com/jarrodmillman/stat133
 
 &lt;p&gt;At this point, your Github repository main page should look
 something like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Your New Repo" src="http://berkeley-stat133.github.io/images/github_s133_repo_2ndcommit.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Your New Repo" src="http://berkeley-stat133.github.io/website/images/github_s133_repo_2ndcommit.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Note that there is now a new file and the number of commits has
-been incremented to 2.&lt;/p&gt;</summary></entry><entry><title>Create a github account</title><link href="http://berkeley-stat133.github.io/lab00.html" rel="alternate"></link><updated>2014-01-24T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-01-24:lab00.html</id><summary type="html">&lt;p&gt;In the first lab, we will deal with account and installation issues.&lt;/p&gt;
+been incremented to 2.&lt;/p&gt;</summary></entry><entry><title>Create a github account</title><link href="http://berkeley-stat133.github.io/website/lab00.html" rel="alternate"></link><updated>2014-01-24T00:00:00-08:00</updated><author><name>Jarrod Millman</name></author><id>tag:berkeley-stat133.github.io,2014-01-24:website/lab00.html</id><summary type="html">&lt;p&gt;In the first lab, we will deal with account and installation issues.&lt;/p&gt;
 &lt;p&gt;During future labs, we will make heavy use of git and github.  Every student
 will need a Github student account for submitting their lab work:&lt;/p&gt;
 &lt;ol&gt;
